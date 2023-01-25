@@ -1,0 +1,36 @@
+Andrea Assignment 7 Answers
+
+EXCEPTION HANDLING
+
+1. Unchecked exceptions
+
+2.Which class has the fewest subclass Exception/RuntimeException/Error and why?
+Error because the error class deals with external events that have nothing to do with the code.
+
+3.Throwable is a class or Interface? Explain why?
+Throwable is a class because it has derived  subclasses.  Interfaces do not support inheritance
+
+4.
+
+A, B, C
+
+5.
+  Why the following code will not compile.
+
+ 
+This code needs a catch block but doesn't need the throws keyword if it has a try catch block
+
+
+6.A The multi-catch feature.
+
+7.Compare Error vs Exception?
+Exceptions are exceptional events that can happen in your application and are internal to your code whereas errors are exceptional events that are external to the application and have nothing to do with the code.
+
+8.Compare Checked Exception vs Unchecked Exception? Give an example of Checked Exception.
+Checked exceptions are exceptions that should be reasonably anticipated and handled by the coder so that the application can continue if one of these situations arise.  Unchecked exceptions are not generally anticipated by the coder but the system can handle these situations should they arise. One example of a checked exception is an IOException
+
+ 
+
+
+
+
